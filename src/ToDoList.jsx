@@ -12,7 +12,7 @@ const ToDoList = ({ toDos, toggleToDo, deleteToDo }) => {
               id={toDo.id}
               completed={toDo.completed}
               title={toDo.title}
-              key={toDo.key}
+              key={toDo.id}
               toggleToDo={toggleToDo}
               deleteToDo={deleteToDo}
             //Or you can just use spread like this: erase everything except key={toDo.key} and add {...toDo}
